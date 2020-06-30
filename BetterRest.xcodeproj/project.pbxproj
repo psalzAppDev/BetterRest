@@ -13,6 +13,7 @@
 		D0D8981324AA88B700964036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D8981224AA88B700964036 /* Assets.xcassets */; };
 		D0D8981624AA88B700964036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D8981524AA88B700964036 /* Preview Assets.xcassets */; };
 		D0D8981924AA88B700964036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D8981724AA88B700964036 /* LaunchScreen.storyboard */; };
+		D0D8982124AB2B5300964036 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D0D8982024AB2B5300964036 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D0D8981524AA88B700964036 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0D8981824AA88B700964036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D8981A24AA88B700964036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D8982024AB2B5300964036 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D0D8981224AA88B700964036 /* Assets.xcassets */,
 				D0D8981724AA88B700964036 /* LaunchScreen.storyboard */,
 				D0D8981A24AA88B700964036 /* Info.plist */,
+				D0D8982024AB2B5300964036 /* SleepCalculator.mlmodel */,
 				D0D8981424AA88B700964036 /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D8980D24AA88B600964036 /* AppDelegate.swift in Sources */,
+				D0D8982124AB2B5300964036 /* SleepCalculator.mlmodel in Sources */,
 				D0D8980F24AA88B600964036 /* SceneDelegate.swift in Sources */,
 				D0D8981124AA88B600964036 /* ContentView.swift in Sources */,
 			);
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,6 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.petersalz.BetterRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -313,6 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.petersalz.BetterRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
