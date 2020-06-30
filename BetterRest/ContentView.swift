@@ -61,16 +61,16 @@ struct ContentView: View {
                 header: Text("Daily coffee intake")
                     .font(.headline)
                 ) {
-                    Stepper(
-                        value: $coffeeAmount,
-                        in: 1...20
+                    
+                    Picker(
+                        selection: $coffeeAmount,
+                        label: Text("")
                     ) {
-                        if coffeeAmount == 1 {
-                            Text("1 cup")
-                        } else {
-                            Text("\(coffeeAmount) cups")
+                        ForEach(1..<21) {
+                            Text("\($0)")
                         }
                     }
+                    .labelsHidden()
                 }
             }
             .navigationBarTitle("BetterRest")
