@@ -62,8 +62,8 @@ struct ContentView: View {
                         selection: $coffeeAmount,
                         label: Text("")
                     ) {
-                        ForEach(1..<21) {
-                            Text("\($0)")
+                        ForEach(1..<21, id: \.self) {
+                            Text("\($0) cup\($0 == 1 ? "" : "s")")
                         }
                     }
                     .labelsHidden()
